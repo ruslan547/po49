@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<sheme></sheme>-->
+<user id="2">
+<login>admin</login>
+<password>q1234</password>
+<name>Max</name>
+<age>26</age>
+<somethingElse>1</somethingElse>
+<the_other>2</the_other>
+<address id="1" type="string"/> <!-- single tag -->
+<city>
+    <street></street>
+</city>
+</user>

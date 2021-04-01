@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+    <!-- Hello -->
+    <login>admin</login>
+    <password>q1234</password>
+    <name>Max</name>
+    <age>26</age>
+</user>

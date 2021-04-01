@@ -5,7 +5,7 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 //that sax uses UserHandler like tool for pars xml, need to extends from class DefaultHandler
-public class UserHandler35 extends DefaultHandler {
+public class UserHandler35_exm1 extends DefaultHandler {
     @Override
     public void startDocument() throws SAXException {
         System.out.println("START DOCUMENT");

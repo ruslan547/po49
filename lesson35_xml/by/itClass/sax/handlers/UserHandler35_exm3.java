@@ -1,29 +1,29 @@
 package by.itClass.sax.handlers;
 
-import by.itClass.beans.User36;
+import by.itClass.beans.User35;
 import by.itClass.sax.constants.Constants;
 import by.itClass.sax.enums.UserField;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-public class UserHandler36_exm2 extends DefaultHandler {
+public class UserHandler35_exm3 extends DefaultHandler {
     private final static String ROOT = "user";
-    private User36 user;
+    private User35 user;
     private UserField field;
 
-    public User36 getUser() {
+    public User35 getUser() {
         return user;
     }
 
-    public UserHandler36_exm2() {
+    public UserHandler35_exm3() {
         super();
     }
 
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
         if (qName.equals(ROOT)) {
-            user = new User36();
+            user = new User35();
             String id = attributes.getValue(Constants.ID_ATTR);
             String type = attributes.getValue(Constants.TYPE_ATTR);
             user.setId(id);

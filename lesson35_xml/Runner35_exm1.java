@@ -1,4 +1,4 @@
-import by.itClass.sax.handlers.UserHandler35;
+import by.itClass.sax.handlers.UserHandler35_exm1;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class Runner35_exm1 {
     public static void main(String[] args) {
-        UserHandler35 handler = new UserHandler35();
+        UserHandler35_exm1 handler = new UserHandler35_exm1();
 
         try {
             SAXParserFactory factory = SAXParserFactory.newInstance();

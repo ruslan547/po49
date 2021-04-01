@@ -1,6 +1,5 @@
-import by.itClass.beans.User36;
-import by.itClass.sax.handlers.UserHandler36;
-import by.itClass.sax.handlers.UserHandler36_exm2;
+import by.itClass.beans.User35;
+import by.itClass.sax.handlers.UserHandler35_exm3;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -8,9 +7,9 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.IOException;
 
-public class Runner36_exm2 {
+public class Runner35_exm3 {
         public static void main(String[] args) {
-            UserHandler36_exm2 handler = new UserHandler36_exm2();
+            UserHandler35_exm3 handler = new UserHandler35_exm3();
 
             try {
                 SAXParserFactory factory = SAXParserFactory.newInstance();
@@ -20,7 +19,7 @@ public class Runner36_exm2 {
                 e.printStackTrace();
             }
 
-            User36 user = handler.getUser();
+            User35 user = handler.getUser();
             System.out.println(user);
         }
 }

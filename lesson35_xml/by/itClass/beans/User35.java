@@ -1,6 +1,6 @@
 package by.itClass.beans;
 
-public class User36 {
+public class User35 {
     private int id;
     private String login;
     private String password;
@@ -8,11 +8,11 @@ public class User36 {
     private int age;
     private String type;
 
-    public User36() {
+    public User35() {
         super();
     }
 
-    public User36(String login, String password, String name, int age) {
+    public User35(String login, String password, String name, int age) {
         this.login = login;
         this.password = password;
         this.name = name;

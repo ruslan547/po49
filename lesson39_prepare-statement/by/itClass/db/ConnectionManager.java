@@ -22,13 +22,13 @@ public class ConnectionManager {
 
     public static Connection getConnection() throws SQLException {
         if (Objects.isNull(cn) || cn.isClosed()) {
-            return DriverManager
+            cn = DriverManager
                     .getConnection(properties.getProperty(DB_URL),
                                     properties.getProperty(DB_USER),
                                    properties.getProperty(DB_PASSWORD));
-        } else {
-            return cn;
         }
+        
+        return cn;
     }
 
     public static void closeConnection() {
